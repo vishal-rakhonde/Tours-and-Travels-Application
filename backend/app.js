@@ -35,7 +35,7 @@ app.post("/create",(req,res)=>{
     const body = req.body;
     console.log({body})
 
-    let str = "Insert into Locations (name,state,info,imageLink,price) values (?,?,?,?,?)"
+    
 
     console.log("Body is there");
     if(body){
