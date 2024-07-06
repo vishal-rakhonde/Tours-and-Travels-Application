@@ -19,7 +19,6 @@ const connection = mysql.createConnection({
     keepAliveInitialDelay:10000,
     enableKeepAlive:true
 })
-
 connection.connect(function(err) {
     if (err) {
       console.error('error connecting: ' + err.stack);
